@@ -1,0 +1,16 @@
+{
+  "name": "demo_server",
+  "version": "1.0.0",
+  "description": "Mi primer servidor en Node + express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "dev":"node --watch app.js"
+  },
+  "author": "Alejandro Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

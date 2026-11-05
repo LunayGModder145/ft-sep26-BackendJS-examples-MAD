@@ -1,0 +1,17 @@
+{
+  "name": "demo_server_routing",
+  "version": "1.0.0",
+  "description": "Demo server express routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imprimeQueso": "echo '🧀 Queso'",
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "author": "Alejandro Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
