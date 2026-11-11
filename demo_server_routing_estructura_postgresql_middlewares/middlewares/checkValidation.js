@@ -4,7 +4,7 @@ const checkValidation = (req, res, next) => {
 
     const result = validationResult(req);
     if (!result.isEmpty()) {
-       return res.send({ errors: result.array() });
+       return res.status(400).send({ errors: result.array() });
     }
     // Validación correcta. Sigue hacia la siguiente tarea
     next();
