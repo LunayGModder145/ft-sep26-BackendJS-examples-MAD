@@ -1,4 +1,4 @@
-# ft-mar26-BackendJS-examples
+# ft-sep26-BackendJS-examples
 
 ### En este repositorio encontrarás ejemplos utilizados en clase correspondientes al módulo de `Backend`
 
